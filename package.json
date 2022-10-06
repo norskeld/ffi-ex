@@ -1,0 +1,25 @@
+{
+  "name": "ffi-ex",
+  "version": "1.0.0",
+  "description": "FFI example with Bun and Rust.",
+  "bin": {
+    "ffi-ex": "./src/index.ts"
+  },
+  "scripts": {
+    "build:ffi": "cargo b -r --manifest-path=ffi/Cargo.toml"
+  },
+  "keywords": [
+    "bun",
+    "ffi",
+    "rust"
+  ],
+  "author": {
+    "name": "Vladislav Mamon",
+    "email": "hello@vm.codes"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "bun-types": "^0.1.11",
+    "typescript": "^4.8.4"
+  }
+}
