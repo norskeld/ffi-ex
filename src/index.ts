@@ -1,6 +1,5 @@
 import { dlopen, suffix, ptr, FFIType } from "bun:ffi";
 
-// Credit to https://github.com/norskeld
 const {
   symbols: { spawn: spawnSyncFFI },
 } = dlopen(`./ffi/target/release/libffi.${suffix}`, {
